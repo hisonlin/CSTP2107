@@ -1,13 +1,15 @@
-import userData from "./data"
-import UserInfo from "./components/UserInfo/UserInfo"
+import React from 'react';
+import userData from './data';
+import UserInfo from './components/UserInfo/UserInfo';
+import './App.css'; // Import your App.css file
 
-function App({}) {
+function App() {
   const data = userData[0].data;
   return (
-   <div>
-    <UserInfo data = {data}/>
-   </div>
-  )
+    <div className="content-container">
+      <UserInfo data={data} />
+    </div>
+  );
 }
 
 export default App;

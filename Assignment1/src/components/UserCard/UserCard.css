@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: rgb(226, 223, 223);
+    background-color: #e2dfdf;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding: 20px;
 }
@@ -28,4 +28,9 @@
 
 .email {
     color: #007bff;
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
 }
